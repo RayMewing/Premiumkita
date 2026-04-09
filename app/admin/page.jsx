@@ -367,7 +367,7 @@ function AdminUsers() {
                 Tambah
               </button>
             </div>
-            <div style={{ display:'flex',gap:8' }}>
+            <div style={{ display:'flex',gap:8 }}>
               <button onClick={() => action(selectedUser._id,'toggle-block',!selectedUser.isActive)}
                 style={{ flex:1,padding:'11px',background:selectedUser.isActive?'#2a1a1a':'#022c22',border:`1px solid ${selectedUser.isActive?'#7f1d1d':'#064e3b'}`,borderRadius:10,color:selectedUser.isActive?'#f87171':'#4ade80',fontSize:13,fontWeight:700,cursor:'pointer' }}>
                 {selectedUser.isActive?'Blokir Akun':'Aktifkan Akun'}
